@@ -37,7 +37,7 @@ const Message = () => {
   const [allchat, setallchat] = useState([]);
   const getChat = async () => {
     let res = await axios.get(
-      url+`2/message/getchat/${friendId}`,
+      url+`/message/getchat/${friendId}`,
       {
         headers: {
           'Authorization': token,
