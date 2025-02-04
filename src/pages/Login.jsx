@@ -28,7 +28,7 @@ let url = import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_
 
        
 
-        let res = await axios.post(url+`2/users/login`,obj)
+        let res = await axios.post(url+`/users/login`,obj)
 
  
         if(res.data.success){
