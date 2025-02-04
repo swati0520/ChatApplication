@@ -8,7 +8,7 @@ const Login = () => {
   
 let userCtx = useContext(UserContext)
 
-let url = import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+let url = import.meta.env.Vite_DEPLOYMENT === 'production'? import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
 
 
 
