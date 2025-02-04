@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
-import UserContext from "../context/userContext";
+import UserContext from "../context/UserContext";
 import { Link, useLocation } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
 import { LiaComments } from "react-icons/lia";

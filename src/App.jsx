@@ -7,7 +7,8 @@ import Login from './pages/Login'
 import { ToastContainer } from 'react-toastify'
 import Navbar from './components/Navbar'
 import { useContext } from 'react'
-import UserContext from './context/userContext'
+// import UserContext from './context/userContext'
+
 import 'react-toastify/dist/ReactToastify.css';
 import ForgetPassword from './pages/ForgetPassword'
 import Profile from './pages/Profile'
@@ -18,6 +19,7 @@ import About from './pages/About'
 import Reels from './pages/Reels'
 import MorePage from './pages/MorePage'
 import HelpPage from './pages/HelpPage'
+import UserContext from './context/UserContext'
 
 function App() {
 

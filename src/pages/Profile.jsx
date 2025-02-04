@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
 import { Button, Descriptions, Modal } from "antd";
-import UserContext from "../context/userContext";
+import UserContext from "../context/UserContext";
 import { IoCameraOutline } from "react-icons/io5";
 import { toast } from "react-toastify";
 import { MdDelete } from "react-icons/md";

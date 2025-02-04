@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import Sidebar from "../components/Sidebar";
 import axios from "axios";
-import UserContext from "../context/userContext";
+import UserContext from "../context/UserContext";
 import { LiaComments } from "react-icons/lia";
 import { FaHeart } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";

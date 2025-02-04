@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import UserContext from './userContext'
+import UserContext from './UserContext'
 import { useState } from 'react'
 import { jwtDecode } from "jwt-decode";
 import axios from 'axios';
