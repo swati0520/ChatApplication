@@ -71,7 +71,7 @@ function Profile() {
       formData
     );
     let data = res.data;
-  
+    
 
     if (data) {
       let res1 = await axios.put(
