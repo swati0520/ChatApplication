@@ -175,7 +175,7 @@ const Home = () => {
                 </div>
               </div>
               <div className=" flex gap-2 items-center  p-4">
-                {ele.like.includes(user._id) ? (
+                {ele.like.includes(user?._id) ? (
                   <FaHeart
                     onClick={() => handelLikes(ele._id)}
                     color="red"
