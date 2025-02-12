@@ -8,9 +8,9 @@ import ScrollToBottom from "react-scroll-to-bottom";
 
 const Message = () => {
 
-  let url = import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+  let url = import.meta.env.VITE_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
 
-  let ENDPOINT =  import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+  let ENDPOINT = url
   const socketRef = useRef();
   // let socket = io(Endpoint, { transports: ["websocket"] });
 

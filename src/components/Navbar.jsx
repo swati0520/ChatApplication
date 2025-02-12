@@ -4,7 +4,7 @@ import UserContext from "../context/UserContext";
 import axios from "axios";
 
 const Navbar = () => {
-    let url = import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+    let url = import.meta.env.VITE_DEPLOYMENT=== 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 

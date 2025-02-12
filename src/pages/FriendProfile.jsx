@@ -9,7 +9,7 @@ import { IoSend } from "react-icons/io5";
 import { formatDistanceToNow } from "date-fns";
 
 function friendProfile() {
-let url = import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+let url = import.meta.env.VITE_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
 
   let ctx = useContext(UserContext);
 

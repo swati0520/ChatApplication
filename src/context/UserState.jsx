@@ -5,7 +5,7 @@ import { jwtDecode } from "jwt-decode";
 import axios from 'axios';
 
 const userState = (props) => {
-  let url = import.meta.env.Vite_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+  let url = import.meta.env.VITE_DEPLOYMENT === 'production'?import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
   let userDetails = JSON.parse(localStorage.getItem('social'))
  const [userInfo, setuserInfo] = useState({
   login:userDetails ? userDetails.login :false,

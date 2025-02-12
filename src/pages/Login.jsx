@@ -8,7 +8,7 @@ const Login = () => {
   
 let userCtx = useContext(UserContext)
 
-let url = import.meta.env.Vite_DEPLOYMENT === 'production'? import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
+let url = import.meta.env.VITE_DEPLOYMENT === 'production'? import.meta.env.VITE_ENDPOINT : "http://localhost:8092"
 
 
 
@@ -34,7 +34,7 @@ let url = import.meta.env.Vite_DEPLOYMENT === 'production'? import.meta.env.VITE
         if(res.data.success){
           userCtx.AddUser(res.data)
 
-          // navigate('/')
+          navigate('/')
            toast.success(res.data.msg, {position:"top-right", theme:"dark"})
       }
       else{
@@ -59,7 +59,7 @@ let url = import.meta.env.Vite_DEPLOYMENT === 'production'? import.meta.env.VITE
               Email Address
             </label>
             <input ref={emailRef}
-            //
+          
               className="text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full focus:outline-2 focus:outline-blue-700"
               type="email"
               required
