@@ -127,7 +127,7 @@ const Home = () => {
               className="max-w-md max-h-full mt-4 sm:mt-4  overflow-hidden sm:m-auto  bg-gray-600 rounded-lg shadow-md  dark:bg-gray-800"
             >
               <div className="mt-4 ms-6">
-                <div className="block items-center">
+                <div className=" ">
                   <div className="flex items-center">
                     <img
                       className="object-cover h-12 rounded-full w-12"
@@ -135,7 +135,7 @@ const Home = () => {
                     />
                     <a
                       href="#"
-                      className="mx-2 bg-slate-400  capitalize font-bold text-white"
+                      className="mx-2 capitalize font-bold text-white"
                       tabIndex={0}
                       role="link"
                     >
