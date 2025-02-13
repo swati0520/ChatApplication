@@ -155,7 +155,7 @@ const Home = () => {
                   alt="Article"
                 />
               ) : ele.file.includes("video") ? (
-                <video className="mt-8 object-contain max- w-[300px]  h-32 m-auto" controls src={ele.file}></video>
+                <video className="mt-8  max- w-[300px]  h-32 m-auto" controls src={ele.file}></video>
               ) : (
                 ""
               )}
