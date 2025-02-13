@@ -135,7 +135,7 @@ const Home = () => {
                     />
                     <a
                       href="#"
-                      className="mx-2 w-10 capitalize font-bold text-white"
+                      className="mx-2 bg-slate-400 w-10 capitalize font-bold text-white"
                       tabIndex={0}
                       role="link"
                     >
@@ -227,39 +227,6 @@ const Home = () => {
         })}
       </div>
 
-      {/* <Modal className='top-28'
-          title="Comments"
-          // visible={openModal}
-          show={openModal}
-          onClose={() => setOpenModal(false)}
-          // onCancel={() => setIsModalOpen(false)}
-        >
-          {selectedPost?.comments?.length ? (
-            selectedPost?.comments.map((comment, id) => (
-              <div key={id} className="mb-4">
-                <div className="flex items-center gap-2">
-                  <img
-                    src={comment?.users?.profilePic}
-                    alt=""
-                    className="h-6 w-6 rounded-full"
-                  />
-                  <p>{comment?.users?.name}</p>
-                </div>
-                <div className="flex justify-between">
-                  <p>{comment.text}</p>
-                  {user._id === comment?.users?._id && (
-                    <MdDelete
-                      onClick={() => handelComments(comment, selectedPost)}
-                      className="text-xl cursor-pointer"
-                    />
-                  )}
-                </div>
-              </div>
-            ))
-          ) : (
-            <p>No comments</p>
-          )}
-        </Modal> */}
 
       <Modal
         className="w-full sm:w-[448px] sm:ml-[40.3%] h-[300px] rounded-lg  mx-auto  top-[100px] mt-80"
