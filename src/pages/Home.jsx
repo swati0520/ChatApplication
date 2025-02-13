@@ -124,7 +124,7 @@ const Home = () => {
           return (
             <div
               key={index}
-              className="max-w-md max-h-full mt-4 sm:mt-4  overflow-hidden sm:m-auto  bg-gray-900 rounded-lg shadow-md  dark:bg-gray-800"
+              className="max-w-md max-h-full mt-4 sm:mt-4  overflow-hidden sm:m-auto  bg-gray-600 rounded-lg shadow-md  dark:bg-gray-800"
             >
               <div className="mt-4 ms-6">
                 <div className="flex items-center">
