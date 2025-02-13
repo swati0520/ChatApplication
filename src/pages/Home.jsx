@@ -78,10 +78,10 @@ const Home = () => {
     let commentId = comment._id;
     let postId = post._id;
 
-;
+
 
     let res = await axios.delete(
-      url+`/commentDelete/${commentId}/${postId}`
+      url+`/post/commentDelete/${commentId}/${postId}`
     );
     let data = res.data;
 
@@ -150,12 +150,12 @@ const Home = () => {
 
               {ele.file.includes("image") ? (
                 <img
-                  className="object-contain w-full h-64 "
+                  className="object-contain w-full h-32"
                   src={ele.file}
                   alt="Article"
                 />
               ) : ele.file.includes("video") ? (
-                <video className="mt-8" controls src={ele.file}></video>
+                <video className="mt-8 object-contain w-[300px] h-32 m-auto" controls src={ele.file}></video>
               ) : (
                 ""
               )}

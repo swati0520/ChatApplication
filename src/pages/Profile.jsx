@@ -26,6 +26,7 @@ function Profile() {
   let userID = ctx.userInfo.userId;
 
   const [userInfo, setuserInfo] = useState("");
+  console.log(userInfo)
 
 
   async function getUserData() {
