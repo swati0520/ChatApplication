@@ -142,7 +142,7 @@ const Home = () => {
                       {ele?.userId?.name}
                     </a>
                   </div>
-                  <span className="mx-1 text-xs font-bold ml-12 mb-2 text-white">
+                  <span className="mx-1 text-xs font-bold ml-28 mb-2 text-white">
                   {formatDistanceToNow(new Date(ele.createdAt), { addSuffix: true })}
                   </span>
                 </div>
