@@ -18,7 +18,7 @@ const About = () => {
                     Our Mission:
                     To redefine social media as a force for positivity, inclusivity, and personal growth.
 
-                    Download [Your App Name] today and be part of the movement to build a better, more connected world.
+                    Download [ChatRoom] today and be part of the movement to build a better, more connected world.
 
                 </p>
             </div>
