@@ -135,7 +135,7 @@ const Home = () => {
                     />
                     <a
                       href="#"
-                      className="mx-2 capitalize font-bold text-white"
+                      className="mx-2 capitalize  font-bold text-white"
                       tabIndex={0}
                       role="link"
                     >
