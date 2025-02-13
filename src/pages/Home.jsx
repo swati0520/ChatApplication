@@ -143,7 +143,7 @@ const Home = () => {
                     </a>
                   </div>
                   <span className="mx-1 text-xs font-bold ml-12 mb-2 text-white">
-                    {formatDistanceToNow(new Date(ele.createdAt),{ addSuffix: true })}
+                  {formatDistanceToNow(new Date(ele.createdAt), { addSuffix: true })}
                   </span>
                 </div>
               </div>
