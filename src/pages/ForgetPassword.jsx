@@ -16,6 +16,7 @@ const ForgetPassword = () => {
     
     let data = await res.data;
     console.log(data);
+    console.log(res)
     
     
 if(data.success){
