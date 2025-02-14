@@ -12,7 +12,7 @@ const ForgetPassword = () => {
       email: emailRef.current.value,
     };
    
-    let res = axios.post(url+"/users/forgetPassword", obj);
+    let res =await axios.post(url+"/users/forgetPassword", obj);
     
     let data = await res.data;
     console.log(data);
