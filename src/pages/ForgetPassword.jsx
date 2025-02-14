@@ -14,7 +14,9 @@ const ForgetPassword = () => {
    
     let res = axios.post(url+"/users/forgetPassword", obj);
     
-    let data = (await res).data;
+    let data = await res.data;
+    console.log(data);
+    
     
 if(data.success){
 toast.success(data.msg,{position:'top-center'})
